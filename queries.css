@@ -1,0 +1,38 @@
+/* Below 1344 px (smaller desktops) */
+
+@media (max-width: 84em) {
+
+}
+
+/* Below 1200px (Lanscape tablets) */
+
+@media (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-about h1 {
+    font-size: 3.6rem;
+  }
+}
+
+/* Below 944px (Tablets) */
+@media (max-width: 59rem) {
+
+}
+
+/* Below 704px (Small Tablets) */
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 38em) {
+
+}
+
+@media (max-width: 31em) {
+  html {
+    font-size: 40%;
+  }
+}
