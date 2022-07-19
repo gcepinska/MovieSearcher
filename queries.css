@@ -1,7 +1,6 @@
 /* Below 1344 px (smaller desktops) */
 
 @media (max-width: 84em) {
-
 }
 
 /* Below 1200px (Lanscape tablets) */
@@ -17,7 +16,6 @@
 
 /* Below 944px (Tablets) */
 @media (max-width: 59rem) {
-
 }
 
 /* Below 704px (Small Tablets) */
@@ -28,11 +26,16 @@
 }
 
 @media (max-width: 38em) {
-
 }
 
 @media (max-width: 31em) {
   html {
     font-size: 30%;
+  }
+
+  .movie {
+    width: 80vw;
+    border-radius: 0.7rem;
+    margin: 0 3rem;
   }
 }
