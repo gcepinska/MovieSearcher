@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #555;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.movies {
+  display: flex;
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.movie {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  width: 50rem;
+  border-radius: 0.7rem;
+  margin: 0 3rem;
+}
+
+
+.movie__data {
+  padding: 2.5rem 3.75rem 3rem 3.75rem;
+}
+
+.movie__name {
+  font-size: 3.5rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+.movie__overview {
+  font-size: 2.2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  
+}
+
+.movie__year {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.movie__row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.movie__row {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.movie__row span {
+  font-weight: 400;
+}
+
+.btn-search_movie {
+  border: none;
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  border-radius: 0.7rem;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+  margin-top: 5rem;
+}
+
